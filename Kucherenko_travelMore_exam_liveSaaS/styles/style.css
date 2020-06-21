@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.main_section {
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  max-height: 100vh;
+  min-height: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat 3 fr;
+      grid-template-columns: repeat 3 fr;
+}
+
+.main_section-1 {
+  background-image: url(../assets/background_images/2.png);
+}
+
+.how_it_works {
+  height: 337px;
+  width: auto;
+  background-color: #333333;
+}
+
+.main_section-2 {
+  background-image: url(../assets/background_images/3.png);
+}
+
+.main_section-3 {
+  background-image: url(../assets/background_images/4.png);
+}
+
+.main_section-4 {
+  background-image: url(../assets/background_images/55.png);
+}
+
+.footer {
+  height: 268px;
+  background-color: #232323;
+}
+/*# sourceMappingURL=style.css.map */
